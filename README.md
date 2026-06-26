@@ -17,15 +17,11 @@ Equilíbrio entre vida e trabalho.
 
 Resultado prático: Entregaremos ao RH da IBM uma lista objetiva de fatores de risco (ex: perfis com baixa satisfação + muitas horas extras). Com isso, o time poderá agir preventivamente, ajustando políticas e criando planos de retenção antes que o pedido de demissão chegue.
 
-
-
-
 # Premissas da análise
 
-Foram Coletados os dados de 1471 Funcionários da IBM
-Não existe datas de contratação dos funcionários.
-Não há menção de qual período e referente a esse dataset
-
+Foram coletados os dados de 1471 funcionários da IBM.
+Não existem datas de contratação dos funcionários.
+Não há menção a qual período se refere esse dataset.
 
 # Estratégia da solução
 
@@ -33,7 +29,7 @@ O método Fato-Dimensão foi usado para desenvolver a análise de dados da campa
 
 # Passo 1: Resumir o contexto em uma pergunta aberta
 
-As perguntas abertas são um tipo de demanda muito comum em análise de dados no qual a demanda possui N possíveis soluções e cabe ao analista de dados avaliar as possibilidades e escolher a alternativa com o maior retorno e o menor esforço possível. Para essa análise, foi definida a seguinte pergunta aberta:
+As perguntas abertas são um tipo de demanda muito comum em análise de dados nas quais a demanda possui N possíveis soluções e cabe ao analista de dados avaliar as possibilidades e escolher a alternativa com o maior retorno e o menor esforço possível. Para essa análise, foi definida a seguinte pergunta aberta:
 
 **Quais fatores mais contribuem para o turnover de funcionários?**
 
@@ -43,16 +39,15 @@ As perguntas fechadas são um tipo de demanda muito comum na área de análise d
 
 Para essa análise, foi definida a seguinte pergunta fechada:
 
-**Pergunta Fechada: faça uma análise do turnover da IBM, analisando o porquê o funcionário tem uma alta taxa de rotatividade. Será porque ele ganha abaixo da média? Porque ele faz hora extra? Porque não há promoção? Porque não há visão de futuro dentro da empresa para a carreira dele? Porque ele recebe abaixo do que a média do cargo considera, considerando o mercado como um todo?**
+**Pergunta Fechada: faça uma análise do turnover da IBM, analisando o porquê de o funcionário ter uma alta taxa de rotatividade. Será porque ele ganha abaixo da média? Por que ele faz hora extra? Por que não há promoção? Por que não há visão de futuro dentro da empresa para a carreira dele? Por que ele recebe abaixo do que a média do cargo considera, considerando o mercado como um todo?**
 
 # Passo 3: Definição da Coluna Fato
 
-O Fato é a coluna de interesse que representa o ponto focal da análise. Nesse caso, a coluna "Attrition" mostra se o funcionario esta na empresa ou se ja saiu
+O Fato é a coluna de interesse que representa o ponto focal da análise. Nesse caso, a coluna "Attrition" mostra se o funcionário está na empresa ou se já saiu.
 
 # Passo 4: Identificação das Dimensões
 
 As colunas foram agrupadas em dimensões comuns que fornecem mais detalhes sobre o Fato que será analisado. Foram organizadas as seguintes dimensões:
-
 
 Perfil Pessoal e Demográfico: Age, Gender, MaritalStatus, Education, EducationField, DistanceFromHome, Over18.
 Remuneração e Cargo: Department, JobRole, JobLevel, MonthlyIncome, Média_Cargo, Comparativo_Salarial, HourlyRate, DailyRate, MonthlyRate, StockOptionLevel, PercentSalaryHike.
@@ -62,8 +57,6 @@ Carreira, Tempo de Casa e Mobilidade: YearsAtCompany, YearsAtCompany_Blocks, Yea
 Satisfação, Engajamento e Desempenho: JobSatisfaction, EnvironmentSatisfaction, RelationshipSatisfaction, WorkLifeBalance, JobInvolvement, PerformanceRating, OverTime, TrainingTimesLastYear.
 
 Controle e Identificação do Registro: EmployeeNumber, EmployeeCount, StandardHours, Attrition (variável alvo).
-
-
 
 # Passo 5: Hipóteses Analíticas
 
@@ -80,8 +73,6 @@ H5: Profissionais que recebem menos que os colegas estando no mesmo cargo têm a
 H6: Profissionais com menos de 3 anos de trabalho na IBM têm rotatividade maior.
 
 H7: Profissionais Jrs e Estagiários têm uma rotatividade maior.
-
-
 
 # Passo 6: Critérios de Priorização
 
@@ -108,4 +99,4 @@ H7: Profissionais Jrs e Estagiários têm uma rotatividade maior.
 # Próximos passos
 
 Fazer uma análise preditiva para saber o Turnover da IBM para o próximo ano.
- (não e possível fazer essa análise porque esse dataset não tem dimensão de data)
+(não é possível fazer essa análise porque esse dataset não tem dimensão de data)
