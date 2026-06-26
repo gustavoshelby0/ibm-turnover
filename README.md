@@ -83,11 +83,17 @@ H7: Profissionais Jrs e Estagiários têm uma rotatividade maior.
 # Passo 7: Priorização das Hipóteses Analíticas
 
 H1: Profissionais casados têm uma rotatividade menor.
+
 H2: Profissionais que trabalham em muitas empresas têm alta rotatividade.
+
 H3: Profissionais com baixa qualidade de vida têm rotatividade maior.
+
 H4: Profissionais que fazem hora extra têm alta rotatividade.
+
 H5: Profissionais que recebem menos que os colegas estando no mesmo cargo têm alta rotatividade.
+
 H6: Profissionais com menos de 3 anos de trabalho na IBM têm rotatividade maior.
+
 H7: Profissionais Jrs e Estagiários têm uma rotatividade maior.
 
 # Insights da análise
