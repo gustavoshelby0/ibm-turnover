@@ -106,4 +106,5 @@ H7: Profissionais Jrs e Estagiários têm uma rotatividade maior.
 # Próximos passos
 
 Fazer uma análise preditiva para saber o Turnover da IBM para o próximo ano.
+
 (não é possível fazer essa análise porque esse dataset não tem dimensão de data)
