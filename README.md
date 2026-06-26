@@ -25,7 +25,7 @@ Não há menção a qual período se refere esse dataset.
 
 # Estratégia da solução
 
-O método Fato-Dimensão foi usado para desenvolver a análise de dados da campanha de Marketing.
+O método Fato-Dimensão foi usado para desenvolver a análise de dados.
 
 # Passo 1: Resumir o contexto em uma pergunta aberta
 
