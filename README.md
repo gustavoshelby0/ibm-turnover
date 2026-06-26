@@ -50,6 +50,7 @@ O Fato é a coluna de interesse que representa o ponto focal da análise. Nesse 
 As colunas foram agrupadas em dimensões comuns que fornecem mais detalhes sobre o Fato que será analisado. Foram organizadas as seguintes dimensões:
 
 Perfil Pessoal e Demográfico: Age, Gender, MaritalStatus, Education, EducationField, DistanceFromHome, Over18.
+
 Remuneração e Cargo: Department, JobRole, JobLevel, MonthlyIncome, Média_Cargo, Comparativo_Salarial, HourlyRate, DailyRate, MonthlyRate, StockOptionLevel, PercentSalaryHike.
 
 Carreira, Tempo de Casa e Mobilidade: YearsAtCompany, YearsAtCompany_Blocks, YearsInCurrentRole, YearsSinceLastPromotion, YearsWithCurrManager, TotalWorkingYears, NumCompaniesWorked, BusinessTravel.
